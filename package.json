@@ -1,0 +1,35 @@
+{
+  "name": "grunt-airbornos",
+  "description": "Optimize JavaScript files for running under Airborn OS",
+  "version": "0.1.1",
+  "homepage": "",
+  "author": {
+    "name": "Daniel Huigens",
+    "url": "https://www.airbornos.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "airbornos/grunt-airbornos"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "/blob/master/LICENSE"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt": "~0.4.5"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
